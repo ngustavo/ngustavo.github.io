@@ -36,6 +36,9 @@ a {
     display: flex;
     padding: 30px;
 }
+.title img {
+    width: 2em;
+}
 .links {
     margin-left: auto;
 }
