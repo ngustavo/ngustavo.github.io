@@ -1,7 +1,7 @@
 :root {
     --black: #131317;
     --white: #d1d1d1;
-    --orange: darkorange;
+    --orange: #FFA500;
 }
 * {
     margin: 0;
@@ -11,6 +11,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     font: 1.2em "Lato", sans-serif;
+    animation: fadein 1s;
 }
 section {
     display: grid;
@@ -70,7 +71,11 @@ a {
 }
 @keyframes blink {
     from, 49.9% { opacity: 0; }
-    50%, to { opacity: 1; }
+    50%, to     { opacity: 1; }
+}
+@keyframes fadein {
+    from { margin-top: -10em; opacity: 0; }
+    to   { margin-top: 0; opacity: 1; }
 }
 @media screen and (max-width: 1000px) {
     body {
