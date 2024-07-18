@@ -1,104 +1,93 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Gustavo</title>
     <meta property="og:title" content="Gustavo" />
-    <meta property="og:url" content="http://ngustavo.com" />
+    <meta property="og:url" content="https://for.gdn" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://ngustavo.com/assets/otg.png" />
+    <meta property="og:image" content="https://for.gdn/assets/otg.png" />
     <meta property="og:description" content="Desenvolvedor Web" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" href="https://avatars0.githubusercontent.com/u/43749971" type="image/x-icon" /> -->
     <link rel="icon" href="/assets/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/main.css" />
-    <script src="/assets/main.js"></script>
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
-    <section>
-        <div class="row">
-            <div class="header">
-                <div class="title">
-                    <a href="/">
-                        <img src="/assets/logo.png" alt="">
-                    </a>
-                </div>
-                <div class="links">
-                    <a target="_blank" href="https://github.com/ngustavo">GitHub</a>
-                    <a target="_blank" href="https://www.linkedin.com/in/ngustavo/">LinkedIn</a>
-                    <a target="_blank" href="https://codepen.io/ngustavo">CodePen</a>
-                </div>
-            </div>
-            <div class="left side">
-                <div class="content">
-                    <div class="text">
-                        <div class="huge">
-                            <span id="cli"></span>
-                            <span id="cursor">▌</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="right side">
-                <div class="content">
-                    <img src="/assets/multi.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="row">    
-            <div class="left side">
-                <div class="content">
-                    <div class="text">
-                        <div class="huge">musiqpad</div>
-                        <span>
-                            Streaming de música com chat comunitário.<br>
-                            Perfeito para dias chuvosos.<br>
-                            <a target="_blank" href="https://github.com/musiqpad">GitHub</a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="right side">
-                <div class="content">
-                    <img src="/assets/qp.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="row">    
-            <div class="left side">
-                <div class="content">
-                    <div class="text">
-                        <div class="huge">Vicon SAGA</div>
-                        <span>
-                            Mapeamento estratégico por GPS.<br>
-                            Muito usado pelos bombeiros e institutos de pesquisa.<br>
-                            <a href="https://play.google.com/store/apps/details?id=br.com.viconsaga">App</a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="right side">
-                <div class="content">
-                    <img id="vicon" src="/assets/vicon.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="left side">
-                <div class="content">
-                    <div class="text">
-                        <div class="huge">Receita do Sucesso</div>
-                        <span>O segredo é usar as melhores ferramentas.</span>
-                    </div>
-                </div>
-            </div>
-            <div class="right side">
-                <div class="content">
-                    <img src="/assets/tech.png" alt="">
-                </div>
-            </div>
-        </div>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
     </section>
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#popup">
+        <img src="https://avatars0.githubusercontent.com/u/6215502" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+        <div class="popup">
+            <div class="popup-photo">
+                <a href="https://avatars0.githubusercontent.com/u/6215502" target="_blank">
+                    <img src="https://avatars0.githubusercontent.com/u/6215502" alt="Profile Picture">
+                </a>
+            </div>
+            <div class="popup-quote">
+                #Libertarian #Zen #Stoic
+            </div>
+            <a class="popup-close" onclick="history.back()">&times;</a>
+        </div>
+    </div>
+
+    <div class="title">
+        @gustavostnt
+    </div>
+    <p class="title h4">
+        Web Specialist
+    </p>
+
+    <div class="links social">
+        <a class="link" href="https://www.linkedin.com/in/gustavostnt/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="link" href="https://github.com/ngustavo" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a class="link" href="https://codepen.io/ngustavo" target="_blank">
+            <i class="fab fa-codepen"></i>
+        </a>
+        <a class="link" href="https://twitter.com/gustavostnt" target="_blank">
+            <i class="fab fa-x-twitter"></i>
+        </a>
+    </div>
+
+    <div class="title h3">
+        Cases
+    </div>
+
+    <div class="links">
+        <a class="link" href="https://planicare.pt" target="_blank">
+            Planicare
+        </a>
+        <a class="link" href="https://draprado.com" target="_blank">
+            Dra. Prado
+        </a>
+        <a class="link" href="https://github.com/musiqpad" target="_blank">
+            musiqpad
+        </a>
+        <a class="link" href="https://www.viconsaga.com.br/help/vicon-saga-mobile.pdf" target="_blank">
+            Vicon SAGA
+        </a>
+    </div>
+
+    <div id="hashtag">
+        <i class="fa fa-rocket">&nbsp;</i>
+    </div>
 </body>
+
 </html>
